@@ -15,11 +15,32 @@
     text-align: center;
 }
 
+.header-title {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.header-title::before {
+    content: '[';
+    position: relative;
+    left: -1rem;
+}
+
+.header-title::after {
+    content: ']';
+    position: relative;
+    right: -1rem;
+}
+
+.header-subtitle {
+    font-size: 1.2rem;
+}
+
 .header-border {
     border: 3.5px solid lightblue;
     justify-self: center;
-    width: 115px;
-    height: 115px;
+    width: 165px;
+    height: 165px;
     border-radius: 50%;
     display: grid;
     place-items: center;
@@ -27,8 +48,8 @@
 }
 
 .header-img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     background: lightblue;
     border-radius: 50%;
     overflow: hidden;
@@ -40,7 +61,7 @@
 
 .header-skills-btn {
     appearance: none;
-    margin: 1rem;
+    margin: 2rem;
     background-color: #FCFCFD;
     border-radius: 4px;
     border-width: 0;
@@ -82,6 +103,7 @@
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    margin-bottom: 2rem;
 }
 
 .header-download-btn {
@@ -202,4 +224,104 @@
     width: 2rem;
     margin-top: 3px;
     box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.skills-modal {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 999;
+    background: rgba(255, 255, 255, 0.49);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.4px);
+    -webkit-backdrop-filter: blur(7.4px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+body.modal-open {
+    overflow: hidden;
+}
+
+
+.modal-content {
+    width: 50%;
+    background: white;
+    border-radius: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 10px 40px -5px;
+    padding: 3rem;
+}
+
+.modal-close-btn {
+    position: relative;
+    top: -2rem;
+    right: -2rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    background: lightcoral;
+    font-size: 1.3rem;
+    padding: 0.5rem 0.7rem;
+    float: right;
+    cursor: pointer;
+}
+
+.modal-title {
+    display: flex;
+    justify-content: center;
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+    margin-top: -1.5rem;
+    font-weight: 600;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.full-row {
+    grid-column: 1 / span 2;
+    margin-top: 1rem;
+}
+
+.full-flex-row {
+    display: flex;
+}
+
+.flex-1 {
+    flex: 1;
+    width: 100%;
+}
+
+.skills-title {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+
+.skills-title::before {
+    content: "";
+    display: block;
+    width: 5rem;
+    border-bottom: 5px solid #f9dd94;
+    position: relative;
+    left: 5rem;
+}
+
+.skills-list {
+    list-style: none;
+}
+
+.skills-list>li {
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }

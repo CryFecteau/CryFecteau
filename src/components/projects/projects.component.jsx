@@ -104,10 +104,126 @@ export default function ProjectsComponent() {
                     </div>
                 </div>
                 <div className='tab-content' data-content id='react'>
-                    <h1>React</h1>
+                    <h2 className='tab-title'>React Projects</h2>
+                    <div className='tab-projects'>
+                        <div className='project-card'>
+                            <div className="project-name">
+                                <p>Name Here</p>
+                                <div></div>
+                            </div>
+                            <div className='project-img'>
+                                <img src='https://placehold.co/400' alt='Crystal Fecteau' />
+                            </div>
+                            <div className='project-links'>
+                                <a href='' target='_blank' className='link-btn'>
+                                    <i class="fa-brands fa-github-alt"></i>
+                                    View Code
+                                </a>
+                                <a href='' target='_blank' className='link-btn'>
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                    Visit Website
+                                </a>
+                            </div>
+                        </div>  <div className='project-card'>
+                            <div className="project-name">
+                                <p>Name Here</p>
+                                <div></div>
+                            </div>
+                            <div className='project-img'>
+                                <img src='https://placehold.co/400' alt='Crystal Fecteau' />
+                            </div>
+                            <div className='project-links'>
+                                <a href='' target='_blank' className='link-btn'>
+                                    <i class="fa-brands fa-github-alt"></i>
+                                    View Code
+                                </a>
+                                <a href='' target='_blank' className='link-btn'>
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                    Visit Website
+                                </a>
+                            </div>
+                        </div>
+                        <div className='project-card'>
+                            <div className="project-name">
+                                <p>Name Here</p>
+                                <div></div>
+                            </div>
+                            <div className='project-img'>
+                                <img src='https://placehold.co/400' alt='Crystal Fecteau' />
+                            </div>
+                            <div className='project-links'>
+                                <a href='' target='_blank' className='link-btn'>
+                                    <i class="fa-brands fa-github-alt"></i>
+                                    View Code
+                                </a>
+                                <a href='' target='_blank' className='link-btn'>
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                    Visit Website
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div className='tab-content' data-content id='vue'>
-                    <h1>Vue</h1>
+                    <h2 className='tab-title'>Vue Projects</h2>
+                    <div className='tab-projects'>
+                        <div className='project-card'>
+                            <div className="project-name">
+                                <p>Name Here</p>
+                                <div></div>
+                            </div>
+                            <div className='project-img'>
+                                <img src='https://placehold.co/400' alt='Crystal Fecteau' />
+                            </div>
+                            <div className='project-links'>
+                                <a href='' target='_blank' className='link-btn'>
+                                    <i class="fa-brands fa-github-alt"></i>
+                                    View Code
+                                </a>
+                                <a href='' target='_blank' className='link-btn'>
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                    Visit Website
+                                </a>
+                            </div>
+                        </div>  <div className='project-card'>
+                            <div className="project-name">
+                                <p>Name Here</p>
+                                <div></div>
+                            </div>
+                            <div className='project-img'>
+                                <img src='https://placehold.co/400' alt='Crystal Fecteau' />
+                            </div>
+                            <div className='project-links'>
+                                <a href='' target='_blank' className='link-btn'>
+                                    <i class="fa-brands fa-github-alt"></i>
+                                    View Code
+                                </a>
+                                <a href='' target='_blank' className='link-btn'>
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                    Visit Website
+                                </a>
+                            </div>
+                        </div>
+                        <div className='project-card'>
+                            <div className="project-name">
+                                <p>Name Here</p>
+                                <div></div>
+                            </div>
+                            <div className='project-img'>
+                                <img src='https://placehold.co/400' alt='Crystal Fecteau' />
+                            </div>
+                            <div className='project-links'>
+                                <a href='' target='_blank' className='link-btn'>
+                                    <i class="fa-brands fa-github-alt"></i>
+                                    View Code
+                                </a>
+                                <a href='' target='_blank' className='link-btn'>
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                    Visit Website
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
