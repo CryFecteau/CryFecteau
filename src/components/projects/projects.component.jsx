@@ -1,5 +1,11 @@
 import React, { useEffect } from 'react'
 import './projects.component.css'
+import DMCImg from '../../assets/img/DMC.png';
+import NGImg from '../../assets/img/NG.png';
+import CBSImg from '../../assets/img/CBS.png';
+import TMImg from '../../assets/img/TM.png';
+import UBImg from '../../assets/img/UB.png';
+import AVImg from '../../assets/img/AV.png';
 
 
 export default function ProjectsComponent() {
@@ -47,56 +53,38 @@ export default function ProjectsComponent() {
                     <div className='tab-projects'>
                         <div className='project-card'>
                             <div className="project-name">
-                                <p>Name Here</p>
+                                <p>Dr. Mercy's Companions</p>
                                 <div></div>
                             </div>
                             <div className='project-img'>
-                                <img src='https://placehold.co/400' alt='Crystal Fecteau' />
+                                <img src={DMCImg} alt='Crystal Fecteau' />
                             </div>
                             <div className='project-links'>
-                                <a href='' target='_blank' className='link-btn'>
-                                    <i class="fa-brands fa-github-alt"></i>
+                                <a href='https://github.com/CryFecteau/DrMercysCompanions' target='_blank' className='link-btn'>
+                                    <i className="fa-brands fa-github-alt"></i>
                                     View Code
                                 </a>
-                                <a href='' target='_blank' className='link-btn'>
-                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                                    Visit Website
-                                </a>
-                            </div>
-                        </div>  <div className='project-card'>
-                            <div className="project-name">
-                                <p>Name Here</p>
-                                <div></div>
-                            </div>
-                            <div className='project-img'>
-                                <img src='https://placehold.co/400' alt='Crystal Fecteau' />
-                            </div>
-                            <div className='project-links'>
-                                <a href='' target='_blank' className='link-btn'>
-                                    <i class="fa-brands fa-github-alt"></i>
-                                    View Code
-                                </a>
-                                <a href='' target='_blank' className='link-btn'>
-                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                <a href='https://cryfecteau.github.io/DrMercysCompanions/home' target='_blank' className='link-btn'>
+                                    <i className="fa-solid fa-arrow-up-right-from-square"></i>
                                     Visit Website
                                 </a>
                             </div>
                         </div>
                         <div className='project-card'>
                             <div className="project-name">
-                                <p>Name Here</p>
+                                <p>NexGen Rentals</p>
                                 <div></div>
                             </div>
                             <div className='project-img'>
-                                <img src='https://placehold.co/400' alt='Crystal Fecteau' />
+                                <img src={NGImg} alt='Crystal Fecteau' />
                             </div>
                             <div className='project-links'>
-                                <a href='' target='_blank' className='link-btn'>
-                                    <i class="fa-brands fa-github-alt"></i>
+                                <a href='https://github.com/CryFecteau/NexGen-Rentals' target='_blank' className='link-btn'>
+                                    <i className="fa-brands fa-github-alt"></i>
                                     View Code
                                 </a>
-                                <a href='' target='_blank' className='link-btn'>
-                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                <a href='https://cryfecteau.github.io/NexGen-Rentals/' target='_blank' className='link-btn'>
+                                    <i className="fa-solid fa-arrow-up-right-from-square"></i>
                                     Visit Website
                                 </a>
                             </div>
@@ -108,56 +96,38 @@ export default function ProjectsComponent() {
                     <div className='tab-projects'>
                         <div className='project-card'>
                             <div className="project-name">
-                                <p>Name Here</p>
+                                <p>Core Body Sculpt</p>
                                 <div></div>
                             </div>
                             <div className='project-img'>
-                                <img src='https://placehold.co/400' alt='Crystal Fecteau' />
+                                <img src={CBSImg} alt='Crystal Fecteau' />
                             </div>
                             <div className='project-links'>
-                                <a href='' target='_blank' className='link-btn'>
-                                    <i class="fa-brands fa-github-alt"></i>
+                                <a href='https://github.com/CryFecteau/Core-Body-Sculpt' target='_blank' className='link-btn'>
+                                    <i className="fa-brands fa-github-alt"></i>
                                     View Code
                                 </a>
-                                <a href='' target='_blank' className='link-btn'>
-                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                                    Visit Website
-                                </a>
-                            </div>
-                        </div>  <div className='project-card'>
-                            <div className="project-name">
-                                <p>Name Here</p>
-                                <div></div>
-                            </div>
-                            <div className='project-img'>
-                                <img src='https://placehold.co/400' alt='Crystal Fecteau' />
-                            </div>
-                            <div className='project-links'>
-                                <a href='' target='_blank' className='link-btn'>
-                                    <i class="fa-brands fa-github-alt"></i>
-                                    View Code
-                                </a>
-                                <a href='' target='_blank' className='link-btn'>
-                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                <a href='https://cryfecteau.github.io/Core-Body-Sculpt/' target='_blank' className='link-btn'>
+                                    <i className="fa-solid fa-arrow-up-right-from-square"></i>
                                     Visit Website
                                 </a>
                             </div>
                         </div>
                         <div className='project-card'>
                             <div className="project-name">
-                                <p>Name Here</p>
+                                <p>Transmit Me</p>
                                 <div></div>
                             </div>
                             <div className='project-img'>
-                                <img src='https://placehold.co/400' alt='Crystal Fecteau' />
+                                <img src={TMImg} alt='Crystal Fecteau' />
                             </div>
                             <div className='project-links'>
-                                <a href='' target='_blank' className='link-btn'>
-                                    <i class="fa-brands fa-github-alt"></i>
+                                <a href='https://github.com/CryFecteau/Transmit-Me' target='_blank' className='link-btn'>
+                                    <i className="fa-brands fa-github-alt"></i>
                                     View Code
                                 </a>
-                                <a href='' target='_blank' className='link-btn'>
-                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                <a href='https://cryfecteau.github.io/Transmit-Me/' target='_blank' className='link-btn'>
+                                    <i className="fa-solid fa-arrow-up-right-from-square"></i>
                                     Visit Website
                                 </a>
                             </div>
@@ -169,56 +139,38 @@ export default function ProjectsComponent() {
                     <div className='tab-projects'>
                         <div className='project-card'>
                             <div className="project-name">
-                                <p>Name Here</p>
+                                <p>Umami Bites</p>
                                 <div></div>
                             </div>
                             <div className='project-img'>
-                                <img src='https://placehold.co/400' alt='Crystal Fecteau' />
+                                <img src={UBImg} alt='Crystal Fecteau' />
                             </div>
                             <div className='project-links'>
-                                <a href='' target='_blank' className='link-btn'>
-                                    <i class="fa-brands fa-github-alt"></i>
+                                <a href='https://github.com/CryFecteau/umami-bites' target='_blank' className='link-btn'>
+                                    <i className="fa-brands fa-github-alt"></i>
                                     View Code
                                 </a>
-                                <a href='' target='_blank' className='link-btn'>
-                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                                    Visit Website
-                                </a>
-                            </div>
-                        </div>  <div className='project-card'>
-                            <div className="project-name">
-                                <p>Name Here</p>
-                                <div></div>
-                            </div>
-                            <div className='project-img'>
-                                <img src='https://placehold.co/400' alt='Crystal Fecteau' />
-                            </div>
-                            <div className='project-links'>
-                                <a href='' target='_blank' className='link-btn'>
-                                    <i class="fa-brands fa-github-alt"></i>
-                                    View Code
-                                </a>
-                                <a href='' target='_blank' className='link-btn'>
-                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                <a href='https://cryfecteau.github.io/umami-bites/' target='_blank' className='link-btn'>
+                                    <i className="fa-solid fa-arrow-up-right-from-square"></i>
                                     Visit Website
                                 </a>
                             </div>
                         </div>
                         <div className='project-card'>
                             <div className="project-name">
-                                <p>Name Here</p>
+                                <p>Aurora Vista</p>
                                 <div></div>
                             </div>
                             <div className='project-img'>
-                                <img src='https://placehold.co/400' alt='Crystal Fecteau' />
+                                <img src={AVImg} alt='Crystal Fecteau' />
                             </div>
                             <div className='project-links'>
-                                <a href='' target='_blank' className='link-btn'>
-                                    <i class="fa-brands fa-github-alt"></i>
+                                <a href='https://github.com/CryFecteau/aurora-vista' target='_blank' className='link-btn'>
+                                    <i className="fa-brands fa-github-alt"></i>
                                     View Code
                                 </a>
-                                <a href='' target='_blank' className='link-btn'>
-                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                <a href='https://cryfecteau.github.io/aurora-vista/' target='_blank' className='link-btn'>
+                                    <i className="fa-solid fa-arrow-up-right-from-square"></i>
                                     Visit Website
                                 </a>
                             </div>

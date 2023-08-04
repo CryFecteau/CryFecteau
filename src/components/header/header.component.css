@@ -58,6 +58,10 @@
     justify-content: center;
 }
 
+.header-img img {
+    width: 100%;
+}
+
 
 .header-skills-btn {
     appearance: none;

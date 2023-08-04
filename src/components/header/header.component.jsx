@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './header.component.css'
+import profileImage from '../../assets/img/profile-photo.jpg';
 
 
 export default function HeaderComponent() {
@@ -20,7 +21,7 @@ export default function HeaderComponent() {
                     <div className='header-content'>
                         <div className='header-border'>
                             <div className='header-img'>
-                                <img src='https://placehold.co/400' alt='Crystal Fecteau' />
+                                <img src={profileImage} alt='Crystal Fecteau' />
                             </div>
                         </div>
                     </div>
@@ -29,14 +30,14 @@ export default function HeaderComponent() {
                     <button className='header-skills-btn' onClick={handleModalState}>View Skills</button>
                 </div>
                 <div className='header-btns'>
-                    <a className='header-download-btn' download='' href=''>
+                    <a className='header-download-btn' download='' href='assets/pdf/Cry.Fecteau-Resume.pdf'>
                         <span className="download-text">
                             Download CV
                         </span>
                         <span className='download-icon'><i className="fa-solid fa-download"></i></span>
                     </a>
                     <div className='header-socials'>
-                        <a href='' target='_blank' className='linkedin-btn'>
+                        <a href='https://www.linkedin.com/in/crystal-fecteau/' target='_blank' className='linkedin-btn'>
                             <i className="fa-brands fa-linkedin social-icon"></i>
                             <span className='linkedin-tooltip'>
                                 <div className='tooltip'>
@@ -44,7 +45,7 @@ export default function HeaderComponent() {
                                 </div>
                             </span>
                         </a>
-                        <a href='' target='_blank' className='github-btn'>
+                        <a href='https://github.com/CryFecteau' target='_blank' className='github-btn'>
                             <i className="fa-brands fa-square-github social-icon"></i>
                             <span className='github-tooltip'>
                                 <div className='tooltip'>
@@ -65,33 +66,33 @@ export default function HeaderComponent() {
                             <div className='skills-box'>
                                 <span className='skills-title'>Languages</span>
                                 <ul className='skills-list'>
-                                    <li><i class="fa-solid fa-certificate"></i>JavaScript</li>
-                                    <li><i class="fa-solid fa-certificate"></i>TypeScript</li>
-                                    <li><i class="fa-solid fa-certificate"></i>C#</li>
-                                    <li><i class="fa-solid fa-certificate"></i>Python</li>
-                                    <li><i class="fa-solid fa-certificate"></i>HTML</li>
-                                    <li><i class="fa-solid fa-certificate"></i>CSS</li>
-                                    <li><i class="fa-solid fa-certificate"></i>SCSS</li>
+                                    <li><i className="fa-solid fa-certificate"></i>JavaScript</li>
+                                    <li><i className="fa-solid fa-certificate"></i>TypeScript</li>
+                                    <li><i className="fa-solid fa-certificate"></i>C#</li>
+                                    <li><i className="fa-solid fa-certificate"></i>Python</li>
+                                    <li><i className="fa-solid fa-certificate"></i>HTML</li>
+                                    <li><i className="fa-solid fa-certificate"></i>CSS</li>
+                                    <li><i className="fa-solid fa-certificate"></i>SCSS</li>
                                 </ul>
                             </div>
                             <div className='skills-box'>
                                 <span className='skills-title'>Frameworks</span>
                                 <ul className='skills-list'>
-                                    <li><i class="fa-solid fa-certificate"></i>Angular</li>
-                                    <li><i class="fa-solid fa-certificate"></i>React</li>
-                                    <li><i class="fa-solid fa-certificate"></i>React Native</li>
-                                    <li><i class="fa-solid fa-certificate"></i>Vue</li>
-                                    <li><i class="fa-solid fa-certificate"></i>jQuery</li>
-                                    <li><i class="fa-solid fa-certificate"></i>Bootstrap</li>
-                                    <li><i class="fa-solid fa-certificate"></i>Tailwind CSS</li>
+                                    <li><i className="fa-solid fa-certificate"></i>Angular</li>
+                                    <li><i className="fa-solid fa-certificate"></i>React</li>
+                                    <li><i className="fa-solid fa-certificate"></i>React Native</li>
+                                    <li><i className="fa-solid fa-certificate"></i>Vue</li>
+                                    <li><i className="fa-solid fa-certificate"></i>jQuery</li>
+                                    <li><i className="fa-solid fa-certificate"></i>Bootstrap</li>
+                                    <li><i className="fa-solid fa-certificate"></i>Tailwind CSS</li>
                                 </ul>
                             </div>
                             <div className='skills-box full-row'>
                                 <span className='skills-title '>Non-technical Skills</span>
                                 <ul className='skills-list full-flex-row'>
-                                    <li className='flex-1'><i class="fa-solid fa-certificate"></i>Problem-Solving</li>
-                                    <li className='flex-1'><i class="fa-solid fa-certificate"></i>Teamwork</li>
-                                    <li><i class="fa-solid fa-certificate"></i>Creativity</li>
+                                    <li className='flex-1'><i className="fa-solid fa-certificate"></i>Problem-Solving</li>
+                                    <li className='flex-1'><i className="fa-solid fa-certificate"></i>Teamwork</li>
+                                    <li><i className="fa-solid fa-certificate"></i>Creativity</li>
                                 </ul>
                             </div>
                         </div>

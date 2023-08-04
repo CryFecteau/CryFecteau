@@ -81,6 +81,8 @@
 }
 
 .project-img>img {
+    height: clamp(25rem, 30vw, 30rem);
+    width: clamp(25rem, 30vw, 30rem);
     border-radius: 10px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
@@ -152,4 +154,19 @@
     align-items: center;
     gap: 5px;
     text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .project-tabs {
+        width: 80%;
+    }
+
+    .tab-projects {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .project-card {
+        margin-bottom: -2rem;
+    }
 }
