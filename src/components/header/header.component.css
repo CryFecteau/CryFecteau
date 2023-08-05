@@ -37,7 +37,7 @@
 }
 
 .header-border {
-    border: 3.5px solid lightblue;
+    border: 5px solid rgb(74 184 67);
     justify-self: center;
     width: 165px;
     height: 165px;
@@ -152,7 +152,8 @@
     transform: translateX(153px);
     height: 100%;
     width: 39px;
-    background-color: #17795E;
+    background-color: #6d00b9;
+    color: #ffff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -188,6 +189,7 @@
 
 .linkedin-btn,
 .github-btn {
+    border-radius: 5px;
     position: relative;
     transition: .4s all;
 }
@@ -209,10 +211,10 @@
 .linkedin-btn .linkedin-tooltip .tooltip,
 .github-btn .github-tooltip .tooltip {
     width: 6rem;
-    background-color: lightgray;
+    background-color: rgba(75, 184, 67, 0.55);
     font-size: 0.7rem;
     font-weight: bold;
-    border: 2px solid;
+    border: clamp(1px, 1.5vw, 2px) solid;
     border-radius: 5px;
     padding: 3px;
 }
@@ -227,11 +229,13 @@
     height: 2rem;
     width: 2rem;
     margin-top: 3px;
-    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    background-color: #146c54;
+    color: white;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e71a 0 -3px 0 inset;
 }
 
 .skills-modal {
-    position: absolute;
+    position: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -253,7 +257,8 @@ body.modal-open {
 
 
 .modal-content {
-    width: 50%;
+    position: relative;
+    width: 60rem;
     background: white;
     border-radius: 10px;
     box-shadow: rgb(38, 57, 77) 0px 10px 40px -5px;
@@ -261,13 +266,13 @@ body.modal-open {
 }
 
 .modal-close-btn {
+    border: 3px solid;
     position: relative;
     top: -2rem;
     right: -2rem;
     border-radius: 50%;
     display: flex;
     justify-content: center;
-    background: lightcoral;
     font-size: 1.3rem;
     padding: 0.5rem 0.7rem;
     float: right;
@@ -310,14 +315,16 @@ body.modal-open {
     margin-bottom: 1rem;
 }
 
-
 .skills-title::before {
-    content: "";
-    display: block;
-    width: 5rem;
-    border-bottom: 5px solid #f9dd94;
+    content: '{';
     position: relative;
-    left: 5rem;
+    left: -1rem;
+}
+
+.skills-title::after {
+    content: '}';
+    position: relative;
+    right: -1rem;
 }
 
 .skills-list {
@@ -327,5 +334,17 @@ body.modal-open {
 .skills-list>li {
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 10px;
+    padding: 0.5rem;
+    background: #e8df3b;
+    margin: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.skills-icon {
+    border: 3px solid;
+    padding: 0.2rem;
+    border-radius: 50px;
+    width: 1rem;
+    height: 1rem;
 }

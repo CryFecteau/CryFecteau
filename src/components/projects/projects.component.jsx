@@ -60,11 +60,11 @@ export default function ProjectsComponent() {
                                 <img src={DMCImg} alt='Crystal Fecteau' />
                             </div>
                             <div className='project-links'>
-                                <a href='https://github.com/CryFecteau/DrMercysCompanions' target='_blank' className='link-btn'>
+                                <a href='https://github.com/CryFecteau/DrMercysCompanions' target='_blank' rel="noreferrer" className='link-btn'>
                                     <i className="fa-brands fa-github-alt"></i>
                                     View Code
                                 </a>
-                                <a href='https://cryfecteau.github.io/DrMercysCompanions/home' target='_blank' className='link-btn'>
+                                <a href='https://cryfecteau.github.io/DrMercysCompanions/home' target='_blank' rel="noreferrer" className='link-btn'>
                                     <i className="fa-solid fa-arrow-up-right-from-square"></i>
                                     Visit Website
                                 </a>
@@ -79,11 +79,11 @@ export default function ProjectsComponent() {
                                 <img src={NGImg} alt='Crystal Fecteau' />
                             </div>
                             <div className='project-links'>
-                                <a href='https://github.com/CryFecteau/NexGen-Rentals' target='_blank' className='link-btn'>
+                                <a href='https://github.com/CryFecteau/NexGen-Rentals' target='_blank' rel="noreferrer" className='link-btn'>
                                     <i className="fa-brands fa-github-alt"></i>
                                     View Code
                                 </a>
-                                <a href='https://cryfecteau.github.io/NexGen-Rentals/' target='_blank' className='link-btn'>
+                                <a href='https://cryfecteau.github.io/NexGen-Rentals/' target='_blank' rel="noreferrer" className='link-btn'>
                                     <i className="fa-solid fa-arrow-up-right-from-square"></i>
                                     Visit Website
                                 </a>
@@ -103,11 +103,11 @@ export default function ProjectsComponent() {
                                 <img src={CBSImg} alt='Crystal Fecteau' />
                             </div>
                             <div className='project-links'>
-                                <a href='https://github.com/CryFecteau/Core-Body-Sculpt' target='_blank' className='link-btn'>
+                                <a href='https://github.com/CryFecteau/Core-Body-Sculpt' target='_blank' rel="noreferrer" className='link-btn'>
                                     <i className="fa-brands fa-github-alt"></i>
                                     View Code
                                 </a>
-                                <a href='https://cryfecteau.github.io/Core-Body-Sculpt/' target='_blank' className='link-btn'>
+                                <a href='https://cryfecteau.github.io/Core-Body-Sculpt/' target='_blank' rel="noreferrer" className='link-btn'>
                                     <i className="fa-solid fa-arrow-up-right-from-square"></i>
                                     Visit Website
                                 </a>
@@ -122,11 +122,11 @@ export default function ProjectsComponent() {
                                 <img src={TMImg} alt='Crystal Fecteau' />
                             </div>
                             <div className='project-links'>
-                                <a href='https://github.com/CryFecteau/Transmit-Me' target='_blank' className='link-btn'>
+                                <a href='https://github.com/CryFecteau/Transmit-Me' target='_blank' rel="noreferrer" className='link-btn'>
                                     <i className="fa-brands fa-github-alt"></i>
                                     View Code
                                 </a>
-                                <a href='https://cryfecteau.github.io/Transmit-Me/' target='_blank' className='link-btn'>
+                                <a href='https://cryfecteau.github.io/Transmit-Me/' target='_blank' rel="noreferrer" className='link-btn'>
                                     <i className="fa-solid fa-arrow-up-right-from-square"></i>
                                     Visit Website
                                 </a>
@@ -146,11 +146,11 @@ export default function ProjectsComponent() {
                                 <img src={UBImg} alt='Crystal Fecteau' />
                             </div>
                             <div className='project-links'>
-                                <a href='https://github.com/CryFecteau/umami-bites' target='_blank' className='link-btn'>
+                                <a href='https://github.com/CryFecteau/umami-bites' target='_blank' rel="noreferrer" className='link-btn'>
                                     <i className="fa-brands fa-github-alt"></i>
                                     View Code
                                 </a>
-                                <a href='https://cryfecteau.github.io/umami-bites/' target='_blank' className='link-btn'>
+                                <a href='https://cryfecteau.github.io/umami-bites/' target='_blank' rel="noreferrer" className='link-btn'>
                                     <i className="fa-solid fa-arrow-up-right-from-square"></i>
                                     Visit Website
                                 </a>
@@ -165,11 +165,11 @@ export default function ProjectsComponent() {
                                 <img src={AVImg} alt='Crystal Fecteau' />
                             </div>
                             <div className='project-links'>
-                                <a href='https://github.com/CryFecteau/aurora-vista' target='_blank' className='link-btn'>
+                                <a href='https://github.com/CryFecteau/aurora-vista' target='_blank' rel="noreferrer" className='link-btn'>
                                     <i className="fa-brands fa-github-alt"></i>
                                     View Code
                                 </a>
-                                <a href='https://cryfecteau.github.io/aurora-vista/' target='_blank' className='link-btn'>
+                                <a href='https://cryfecteau.github.io/aurora-vista/' target='_blank' rel="noreferrer" className='link-btn'>
                                     <i className="fa-solid fa-arrow-up-right-from-square"></i>
                                     Visit Website
                                 </a>
