@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# Crystal Fecteau - Frontend Developer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Front-End Developer with 5+ years of experience building responsive, scalable websites and applications. Proficient in JavaScript, TypeScript, and SCSS, with hands-on experience in frameworks such as Angular, React, React Native, Vue, and Bootstrap. Skilled in crafting custom UI/UX designs and collaborating effectively within cross-functional teams.
 
-## Available Scripts
+## Skills
+### Languages                              
+  - JavaScript                                    
+  - TypeScript                                     
+  - C#                                       
+  - Python                                         
+  - HTML                                              
+  - CSS                                               
+  - SCSS      
 
-In the project directory, you can run:
+### Frameworks                      
+  -  Angular                         
+  -  React                           
+  -  React Native                    
+  -  Vue                             
+  -  jQuery   
+  -  Bootstrap                       
+  -  Tailwind CSS                     
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Website Demos
+| Website                   | Description                          |
+| -------------------------- | ------------------------------- |
+| [Dr. Mercy's Companions](https://cryfecteau.github.io/DrMercysCompanions/home) | robot e-commerce site, designed to showcase Angular, Firebase, and SCSS |
+| [NexGen Rentals](https://cryfecteau.github.io/NexGen-Rentals/) | car rental site, designed to showcase Angular and SCSS |
+| [Core Body Sculpt](https://cryfecteau.github.io/Core-Body-Sculpt/)| fitness site, designed to showcase React, Framer Motion and CSS  |
+| [Transmit Me](https://cryfecteau.github.io/Transmit-Me/) | social media site, designed to showcase React and Material UI. |
+| [Umami Bites](https://cryfecteau.github.io/umami-bites/) | restaurant site, designed to showcase Vue.js, Animate on Scroll, and CSS |
+| [Aurora Vista](https://cryfecteau.github.io/aurora-vista/) | hotel site created to showcase Vue.js and Bootstrap 5 |
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Contact
+Looking for a Frontend Developer or want to collaborate, feel free to reach out to me at Cry.Fecteau@gmail.com
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
