@@ -64,7 +64,7 @@ export default function ProjectsComponent() {
                                     <i className="fa-brands fa-github-alt"></i>
                                     View Code
                                 </a>
-                                <a href='https://cryfecteau.github.io/DrMercysCompanions/home' target='_blank' rel="noreferrer" className='link-btn'>
+                                <a href='https://cryfecteau.github.io/DrMercysCompanions' target='_blank' rel="noreferrer" className='link-btn'>
                                     <i className="fa-solid fa-arrow-up-right-from-square"></i>
                                     Visit Website
                                 </a>

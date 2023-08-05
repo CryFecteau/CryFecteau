@@ -25,7 +25,7 @@ Front-End Developer with 5+ years of experience building responsive, scalable we
 ## Website Demos
 | Website                   | Description                          |
 | -------------------------- | ------------------------------- |
-| [Dr. Mercy's Companions](https://cryfecteau.github.io/DrMercysCompanions/home) | robot e-commerce site, designed to showcase Angular, Firebase, and SCSS |
+| [Dr. Mercy's Companions](https://cryfecteau.github.io/DrMercysCompanions) | robot e-commerce site, designed to showcase Angular, Firebase, and SCSS |
 | [NexGen Rentals](https://cryfecteau.github.io/NexGen-Rentals/) | car rental site, designed to showcase Angular and SCSS |
 | [Core Body Sculpt](https://cryfecteau.github.io/Core-Body-Sculpt/)| fitness site, designed to showcase React, Framer Motion and CSS  |
 | [Transmit Me](https://cryfecteau.github.io/Transmit-Me/) | social media site, designed to showcase React and Material UI. |
