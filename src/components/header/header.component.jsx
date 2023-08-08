@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './header.component.css'
 import profileImage from '../../assets/img/profile-photo.jpg';
+import cryResume from '../../assets/pdf/CryFecteau_Resume.pdf';
 
 
 export default function HeaderComponent() {
@@ -30,7 +31,7 @@ export default function HeaderComponent() {
                     <button className='header-skills-btn' onClick={handleModalState}>View Skills</button>
                 </div>
                 <div className='header-btns'>
-                    <a className='header-download-btn' download='' href='assets/pdf/Cry.Fecteau-Resume.pdf'>
+                    <a className='header-download-btn' download='' href={cryResume}>
                         <span className="download-text">
                             Download CV
                         </span>
