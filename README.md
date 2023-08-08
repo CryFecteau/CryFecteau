@@ -1,6 +1,6 @@
 # Crystal Fecteau - Frontend Developer
 
-Front-End Developer with 5+ years of experience building responsive, scalable websites and applications. Proficient in JavaScript, TypeScript, and SCSS, with hands-on experience in frameworks such as Angular, React, React Native, Vue, and Bootstrap. Skilled in crafting custom UI/UX designs and collaborating effectively within cross-functional teams.
+Front-End Developer with 3+ years of experience building responsive, scalable websites and applications. Proficient in JavaScript, TypeScript, and SCSS, with hands-on experience in frameworks such as Angular, React, React Native, Vue, and Bootstrap. Skilled in crafting custom UI/UX designs and collaborating effectively within cross-functional teams.
 
 ## Skills
 ### Languages                              
