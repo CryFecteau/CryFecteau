@@ -1,6 +1,11 @@
 .App {
-    position: relative;
-    padding-bottom: 2rem;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: rgb(18, 33, 48);
+
 }
 
 .container {
@@ -11,4 +16,12 @@
     .container {
         margin: 0 auto;
     }
+}
+
+.app-blur {
+    background: rgb(158 165 244 / 48%);
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(150px);
+    z-index: -9;
 }
